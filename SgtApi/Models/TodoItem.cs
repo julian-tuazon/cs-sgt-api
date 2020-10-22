@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SgtApi.Models
 {
-    public class Grade
+    public class Student
     {
         public long Id { get; set; }
 

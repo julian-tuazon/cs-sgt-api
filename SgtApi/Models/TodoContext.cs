@@ -2,9 +2,9 @@
 
 namespace SgtApi.Models
 {
-    public class TodoContext : DbContext
+    public class GradesContext : DbContext
     {
-        public TodoContext(DbContextOptions<TodoContext> options)
+        public Grades(DbContextOptions<TodoContext> options)
             : base(options)
         {
         }
