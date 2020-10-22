@@ -19,8 +19,8 @@ namespace SgtApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<TodoContext>(opt =>
-               opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<GradesContext>(opt =>
+               opt.UseInMemoryDatabase("StudentGradeTable"));
             services.AddControllers();
         }
 
