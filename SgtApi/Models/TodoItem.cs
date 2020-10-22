@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SgtApi.Models
 {
-    public class TodoItem
+    public class Grade
     {
         public long Id { get; set; }
 
@@ -16,7 +16,7 @@ namespace SgtApi.Models
         public string Course { get; set; }
 
         [Required]
-        [Range(minimum: 0.01, maximum: (double) decimal.MaxValue)]
+        [Range(0, 100)]
         public int Grade { get; set; }
     }
 }
