@@ -10,8 +10,6 @@ C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\SgtApi.pdb
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.csprojAssemblyReference.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.AssemblyInfoInputs.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.AssemblyInfo.cs
-C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.csproj.CoreCompileInputs.cache
-C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.RazorTargetAssemblyInfo.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\staticwebassets\SgtApi.StaticWebAssets.Manifest.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\staticwebassets\SgtApi.StaticWebAssets.xml
