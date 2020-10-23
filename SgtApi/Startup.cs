@@ -10,6 +10,7 @@ namespace SgtApi
 {
     public class Startup
     {
+        //readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -22,6 +23,14 @@ namespace SgtApi
             services.AddDbContext<GradesContext>(opt =>
                opt.UseInMemoryDatabase("StudentGradeTable"));
             services.AddControllers();
+            /*services.AddCors(options => 
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000");
+                                  });
+            }); */
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,7 +40,7 @@ namespace SgtApi
                 app.UseDeveloperExceptionPage();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
@@ -41,6 +50,9 @@ namespace SgtApi
             {
                 endpoints.MapControllers();
             });
+
+            //app.UseCors(MyAllowSpecificOrigins);
+
         }
     }
 }
