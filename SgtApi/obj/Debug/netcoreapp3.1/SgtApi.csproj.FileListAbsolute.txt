@@ -77,8 +77,6 @@ C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\runtimes\win-arm\native
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.csproj.CoreCompileInputs.cache
-C:\Users\0\lfz\cs-sgt-api\SgtApi\obj\Debug\netcoreapp3.1\SgtApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\0\lfz\cs-sgt-api\SgtApi\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
