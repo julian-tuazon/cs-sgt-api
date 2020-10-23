@@ -17,6 +17,6 @@ namespace SgtApi.Models
         public string Course { get; set; }
 
         [Required]
-        public string CurrentGrade { get; set; }
+        public int CurrentGrade { get; set; }
     }
 }
