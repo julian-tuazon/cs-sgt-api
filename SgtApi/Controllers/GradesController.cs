@@ -40,7 +40,7 @@ namespace SgtApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGrade(long id, Grade grade)
+        public async Task<ActionResult<Grade>> PutGrade(long id, Grade grade)
         {
             if (id != grade.Id)
             {
@@ -65,7 +65,7 @@ namespace SgtApi.Controllers
                 }
             }
 
-            return NoContent();
+            return grade;
         }
 
         [HttpPost]
